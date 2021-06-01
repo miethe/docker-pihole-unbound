@@ -2,7 +2,7 @@ version: '2'
 
 services:
   pihole:
-    container_name: pihole
+    container_name: holebound
     image: nmiethe/pibound:latest
     hostname: ${HOSTNAME}
     domainname: ${DOMAIN_NAME}
